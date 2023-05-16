@@ -12,6 +12,7 @@ time_till = deadline_date - today_date
 time_till_days = time_till.days
 time_till_hours = int(time_till.total_seconds()/3600)
 time_till_second = time_till.total_seconds()
+print(today_date)
 print(time_till)
 print(time_till_days)
 print(time_till_hours)
